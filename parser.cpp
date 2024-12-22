@@ -62,6 +62,8 @@ public:
 
 			section = line.substr(openBracketPos + 1, closeBracketPos - 1);
 		}
+
+		file.close();
 	}
 
 	std::string get(const std::string& section, const std::string& key)
