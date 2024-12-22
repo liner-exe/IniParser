@@ -33,7 +33,7 @@ public:
 		while (getline(file, line))
 		{
 			trim(line);
-			if (line.empty())
+			if (line.empty() || line[0] == ';')
 			{
 				continue;
 			}
