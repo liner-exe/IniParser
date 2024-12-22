@@ -1,3 +1,6 @@
+#ifndef INI_PARSER_LINEREXE
+#define INI_PARSER_LINEREXE
+
 #include <fstream>
 #include <iostream>
 #include <string>
@@ -86,10 +89,4 @@ public:
 	}
 };
 
-int main()
-{
-	IniParser parser;
-	parser.read("config.ini");
-	std::cout << parser.get("bot", "token") << std::endl;
-	return 0;
-}
+#endif // INI_PARSER_LINEREXE
