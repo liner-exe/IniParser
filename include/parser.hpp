@@ -186,12 +186,12 @@ public:
 				{
 					if (storedKey == key)
 					{
-						toLower(storedValue);
-						if (contains(trueValues, storedValue))
+						std::string storedValue_ = toLower(storedValue);
+						if (contains(trueValues, storedValue_))
 						{
 							return true;
 						}
-						if (contains(falseValues, storedValue))
+						if (contains(falseValues, storedValue_))
 						{
 							return false;
 						}
