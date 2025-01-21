@@ -191,7 +191,7 @@ public:
 						{
 							return true;
 						}
-						if (contains(falseValues, toLower(storedValue)))
+						if (contains(falseValues, storedValue))
 						{
 							return false;
 						}
