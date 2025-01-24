@@ -1,5 +1,5 @@
 // Ini Parser for Modern C++
-// Version 2.0.0
+// Version 2.1.0
 // https://github.com/liner-exe/IniParser
 // 2024-2024 liner-exe
 // License: MIT
